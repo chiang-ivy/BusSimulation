@@ -1,0 +1,10 @@
+1. Currently only Bus line A and Passenger are implemented. Please implement Line B an C include bus and passenger.
+   At this stage you can simply the passengers are traveling in line B or line C. There are no passenger required
+   transferring between bus lines.
+
+2. Enhance the feature to include passengers transferring between bus lines.
+
+3. Setup bus capacity limitation for example 40 people. If bus is full, there is no passenger can get on bus unless
+   there are any passengers reach destination to leave the bus. Also how long bus stay at bus stop should base on how
+   many passenger need to get off and on bus. (For example one passenger to get on/off bus will make bus to stay
+   at bus stop for 10 seconds.)

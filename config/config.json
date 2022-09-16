@@ -1,0 +1,61 @@
+{
+   "system": {
+      "schedule": {
+         "start_time": "06:00:00",
+         "end_time": "18:00:00"
+      }
+   },
+   "line_a": {
+      "stop": 7,
+      "intervals": [
+         4.2,
+         3.5,
+         6.1,
+         2.4,
+         3.2,
+         7.7
+      ],
+      "bus_interval": 25
+   },
+   "line_b": {
+      "stop": 6,
+      "intervals": [
+         5.1,
+         3.2,
+         6.7,
+         2.8,
+         4.2
+      ],
+      "bus_interval": 30
+   },
+   "line_c": {
+      "stop": 11,
+      "intervals": [
+         3.7,
+         5.4,
+         8.1,
+         6.8,
+         4.2,
+         6.7,
+         2.4,
+         9.1,
+         3.8,
+         4.7
+      ],
+      "bus_interval": 23
+   },
+   "connections": {
+      "connection1": {
+         "line_a": 3,
+         "line_b": 2
+      },
+      "connection2": {
+         "line_b": 5,
+         "line_c": 2
+      },
+      "connection3": {
+         "line_a": 5,
+         "line_c": 10
+      }
+   }
+}
